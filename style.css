@@ -1,0 +1,78 @@
+/* Body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Navbar */
+
+.container {
+    font-family: sans-serif;
+}
+
+.nav {
+    /*background-color: rgb(201, 240, 255);*/
+    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);*/
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(12, 54, 88);
+}
+
+.nav-logo {
+    margin: 1.5rem 0;
+    padding: 0 2rem;
+    width: 60px;
+    height: auto;
+    animation: loncatloncat 3s infinite;
+}
+
+/*@keyframes loncatloncat {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}*/
+
+.nav ul {
+    display: flex;   
+    list-style: none;
+    padding: 1rem 1.5rem;
+    margin: auto 3rem auto auto;
+    gap: 40px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(12, 54, 88);
+    transition: color 0.3s ease;
+}
+
+header nav ul li a.active,
+header nav ul li a:hover {
+    color: rgb(238, 59, 208);
+    border-bottom: 1px solid rgb(238, 59, 208);
+}
+
+/* banner */
+.banner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner img {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+}
