@@ -53,14 +53,14 @@ body {
 
 .nav ul li a {
     text-decoration: none;
-    color: rgb(12, 54, 88);
+    color: rgb(217, 196, 8);
     transition: color 0.3s ease;
 }
 
 header nav ul li a.active,
 header nav ul li a:hover {
-    color: rgb(238, 59, 208);
-    border-bottom: 1px solid rgb(238, 59, 208);
+    color: rgb(208, 39, 39);
+    border-bottom: 1px solid rgb(208, 39, 39);
 }
 
 /* banner */
@@ -75,4 +75,5 @@ header nav ul li a:hover {
     width: 100%;
     height: auto;
     display: block;
+
 }
