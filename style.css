@@ -7,6 +7,20 @@ body {
     font-style: normal;
 }
 
+/* banner1 */
+.banner1 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner1 img {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 /* Navbar */
 
 .container {
@@ -77,3 +91,4 @@ header nav ul li a:hover {
     display: block;
 
 }
+
